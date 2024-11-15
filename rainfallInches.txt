@@ -1,0 +1,9 @@
+Portsmouth 228.60
+London 127.00
+Southampton 304.80
+Manchester 939.80
+Leeds 508.00
+Cardiff 1066.80
+Birmingham 863.60
+Edinburgh 660.40
+Newcastle 279.40
