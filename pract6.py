@@ -195,3 +195,35 @@ def eye_picker():
 # Exercise 9
 def draw_patch_window():
     win = Window("", 200, 200)
+    p_tl = Point(0,0)
+    p_br = Point(100,100)
+    tile = 10
+    for col in range(p_tl.x, p_br.y, tile ):
+    	for row in range(p_tl.x, p_br.y, tile ):
+    		if col + row == 90:
+    			p1 = Point(col, row)
+    			p2 = Point(col + tile, row + tile)
+    			draw_rectangle(win, p1, p2, "red")
+    			
+    			
+# Exercise 10
+def draw_patch(win, x, y, colour)
+	p_tl = Point(x,y)
+    p_br = Point(x + 100, y + 100)
+    tile = 10
+    for row in range(p_tl.x, p_br.y, tile ):
+    	for col in range(p_tl.x, p_br.y, tile ):
+    		if col + row == 90:
+    			p1 = Point(x + col, y + row)
+    			p2 = Point(x+ col + tile, y + row + tile)
+    			draw_rectangle(win, p1, p2, colour)
+
+
+def draw_patchwork():
+	win = Window("", 300, 300)
+	tile = 100
+	for row in range(0, win.x, tile):
+		for col in range(0, win.y, tile):
+			draw_rectangle(win, row, col, "blue")
+	
+			
