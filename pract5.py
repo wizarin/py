@@ -1,5 +1,5 @@
 import math
-from graphix import Window, Circle, Point, Text
+from graphix import Window, Circle, Point, Text, Line
 
 
 def greet(name):
