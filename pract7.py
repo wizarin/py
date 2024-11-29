@@ -209,4 +209,8 @@ def order_price():
 		
 # Exercise 5
 def clickable_eye():
-	
+	win = Window("")
+	centre = Point(win.height/2, win.width/2)
+	radius = 100
+	draw_brown_eye(win, centre, radius)
+	labels = ["pupil"]
